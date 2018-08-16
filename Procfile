@@ -1,1 +1,1 @@
-web: gunicorn app.noise:app
+web: gunicorn noise:app
