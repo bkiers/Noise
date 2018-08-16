@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
     </head>
     <body>
+        <div class="container">
         <nav class="navbar navbar-light bg-light">
             <span class="navbar-brand mb-0 h1">Noise</span>
         </nav>
@@ -21,6 +22,7 @@
                     {{ category.pretty_name }}
                 </a>
             {% endfor %}
+        </div>
         </div>
     </body>
 </html>
